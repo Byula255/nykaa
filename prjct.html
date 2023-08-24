@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -16,60 +18,178 @@
   <h1><span style="color: red;">NYKAA </span><span style="font-size: 60%;"> Categories&nbsp; Brands&nbsp; Luxe &nbsp; Nykaa Fashions&nbsp; Beauty Advice<input type="text" placeholder="Search on Nykaa" style="margin-left: 200px; "><button type="button" class="btn btn-danger" style="background-color: red;color: white;  height: 35px; width: 80px;">Sign in</button>
   </span></button></h1></span>
   <hr>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Makeup</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Skin <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Hair</a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Appliances</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Bath & Body</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Natural</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Mom & Baby</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Health & Wellness</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Men</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Fragrance</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pop Ups</a>
-          </li>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Appliances</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-      
-      </ul>
-    
-      </form>
-    </div>
-  </nav>
   
-  </nav>
-  </div>
+  
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Makeup
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Face</a>
+                <a class="dropdown-item" href="#">Eyes</a>
+                <a class="dropdown-item" href="#">Lips</a>
+            
+              </div>
+            </li>
+           
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Skin
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Moisturisers</a>
+                  <a class="dropdown-item" href="#">Conciners</a>
+                  <a class="dropdown-item" href="#">Body Care</a>
+                  <a class="dropdown-item" href="#">Masks</a>
+                
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Hair
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Hair Care</a>
+                  <a class="dropdown-item" href="#">Hair Stylings</a>
+                  <a class="dropdown-item" href="#">Hair Creams & Masks</a>
+                  <a class="dropdown-item" href="#">Hair Accessories</a>
+
+            
+                </div>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Appliances
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Acne Removal</a>
+                    <a class="dropdown-item" href="#">Hair straighteners</a>
+                    <a class="dropdown-item" href="#">Oral Care</a>
+                    <a class="dropdown-item" href="#">Foot Care</a>
+                  
+            
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Bath&Body
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Bath & Shower</a>
+                  <a class="dropdown-item" href="#">Body Care</a>
+                  <a class="dropdown-item" href="#">Hygiene Essentials</a>
+                  <a class="dropdown-item" href="#">Kits & Cambos</a>
+                  
+                
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Natural
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Skin</a>
+                  <a class="dropdown-item" href="#">Makeup</a>
+                  <a class="dropdown-item" href="#">Types Of Skin</a>
+                  <a class="dropdown-item" href="#">Aromatherapy</a>
+                
+                
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Mom & Baby
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Baby Care</a>
+                  <a class="dropdown-item" href="#">Kids Care</a>
+                  <a class="dropdown-item" href="#">Metarnaty Care</a>
+                  <a class="dropdown-item" href="#">Metarnaty Wear</a>
+                
+                
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Health & Wellness
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Health Supplements</a>
+                  <a class="dropdown-item" href="#">Beauty Supplements</a>
+                  <a class="dropdown-item" href="#">Sports Nutrition</a>
+                  <a class="dropdown-item" href="#">Health Foods</a>
+                  
+                
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Men
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Beard Care</a>
+                  <a class="dropdown-item" href="#">Grooming Kits</a>
+                  <a class="dropdown-item" href="#">Shaving</a>
+                  <a class="dropdown-item" href="#">Shop By Concern</a>
+                  
+                </div>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Fragrance 
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">women Fragrance</a>
+                  <a class="dropdown-item" href="#">Men Fragrance</a>
+                  <a class="dropdown-item" href="#">Aromatherapy</a>
+                  <a class="dropdown-item" href="#">Shop By Fragrance Family</a>
+            
+                
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pop Ups 
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">The Activewear</a>
+                  <a class="dropdown-item" href="#">Shapewear</a>
+                  <a class="dropdown-item" href="#">Footwear</a>
+                  <a class="dropdown-item" href="#">Bags</a>
+    
+            
+                </div>
+              </li>
+              
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+        
+          </form>
+        </div>
+      </nav>
+
+      
   
 </div>
 <h2 style="margin-left: 100px;">Best in Beauty</h2>
